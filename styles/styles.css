@@ -4,7 +4,7 @@ h1 {
 }
 
 body {
-    color: chocolate; 
+    color: chocolate;
     background-color: rgb(255, 203, 189);
 }
 
@@ -23,12 +23,39 @@ div.title {
     padding: 10px;
 }
 
-#main{
+#main {
     background-color: cornsilk;
-    color:black;
+    color: black;
     width: 90%;
     border-radius: 10px;
     padding: 20px;
     font-size: 20px;
     margin-top: 50px;
 }
+
+.mainMenu {
+    display: inline;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+ul {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+nav {
+    background-color: bisque;
+    height: 40px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
