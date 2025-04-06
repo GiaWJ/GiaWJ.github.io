@@ -4,58 +4,86 @@ h1 {
 }
 
 body {
-    color: chocolate;
-    background-color: rgb(255, 203, 189);
+    background-color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
 }
 
-h1.title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
-    color: #f89962;
-}
-
-div.title {
-    font-size: 30px;
-    color: brown;
-    background-color: hwb(21 36% 2%);
-    width: 50%;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-#main {
-    background-color: cornsilk;
-    color: black;
-    width: 90%;
-    border-radius: 10px;
-    padding: 20px;
-    font-size: 20px;
-    margin-top: 50px;
-}
-
-.mainMenu {
-    display: inline;
-    font-size: larger;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
-}
-
-ul {
-    margin-top: 10px;
-    padding: 5px;
-}
-
-nav {
-    background-color: bisque;
-    height: 40px;
+.title, h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #00bfff;
 }
 
 .flex-container {
     display: flex;
-    flex-direction: column;
-    background-color: antiquewhite;
-    flex-wrap: wrap;
     justify-content: center;
+    background-color: #00bfff;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
+
+.flex-container a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #007acc;
+}
+
+.flex-container a:hover {
+    background-color: #005f99;
+}
+
+button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, td, th {
+    border: 1px solid #cccccc;
+}
+
+caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* === Responsive Images === */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* === College Links === */
+a[href*="sait.ca"] {
+    display: inline-block;
+    margin: 10px;
+    color: #007acc;
+    text-decoration: underline;
+}
