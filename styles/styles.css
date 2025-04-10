@@ -11,7 +11,11 @@ body {
     padding: 0;
 }
 
-.title, h1, h2, h3, h4 {
+.title,
+h1,
+h2,
+h3,
+h4 {
     text-align: center;
     font-family: 'Georgia', serif;
     color: #00bfff;
@@ -63,7 +67,9 @@ table {
     text-align: center;
 }
 
-table, td, th {
+table,
+td,
+th {
     border: 1px solid #cccccc;
 }
 
@@ -86,4 +92,10 @@ a[href*="sait.ca"] {
     margin: 10px;
     color: #007acc;
     text-decoration: underline;
+}
+
+/* === click the highligt === */
+.highlight-row {
+    background-color: #ffffcc;
+    font-weight: bold;
 }
