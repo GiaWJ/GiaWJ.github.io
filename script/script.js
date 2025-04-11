@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.changeTheme = function () {
         const cssLink = document.getElementById("css");
         if (cssLink.getAttribute("href") === "./styles/styles.css") {
-            cssLink.href = "./styles/dark-theme.css"; 
+            cssLink.href = "./styles/dark-theme.css";
         } else {
             cssLink.href = "./styles/styles.css";
         }
