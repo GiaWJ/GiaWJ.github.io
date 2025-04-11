@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.changeTheme = function () {
         const cssLink = document.getElementById("css");
         if (cssLink.getAttribute("href") === "./styles/styles.css") {
-            cssLink.href = "./styles/dark-theme.css"; // ← 你可以创建这个文件做暗色版
+            cssLink.href = "./styles/dark-theme.css"; 
         } else {
             cssLink.href = "./styles/styles.css";
         }
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const menuItems = document.querySelectorAll(".mainMenu");
     menuItems.forEach(link => {
         link.addEventListener("click", function () {
-            console.log(`你点击了导航链接：${link.textContent}`);
+            console.log('Click the link：${link.textContent}');
         });
     });
 });
